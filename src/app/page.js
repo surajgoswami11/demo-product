@@ -3,36 +3,150 @@ import React from "react";
 import Script from "next/script";
 
 export default function Home() {
-  const products = [
-    {
-      id: 1,
-      name: "Meera Kurti - Meadow",
-      boutique: "Kumaon Threads",
-      price: 799,
-      image: "/meerakurti.jpg",
-    },
-    {
-      id: 2,
-      name: "Silken Whisper Scarf",
-      boutique: "Silk & Spice",
-      price: 499,
-      image: "/scraff.webp",
-    },
-    {
-      id: 3,
-      name: "Noor Boutique Dress",
-      boutique: "Valley Weaves",
-      price: 1299,
-      image: "/boutique.webp",
-    },
-    {
-      id: 4,
-      name: "Ridge Wrap - Pashmina",
-      boutique: "Pahadi Looms",
-      price: 999,
-      image: "/pashmina.webp",
-    },
-  ];
+const products = [
+  {
+    id: 1,
+    name: "Meera Kurti - Meadow",
+    boutique: "Kumaon Threads",
+    price: 1200,
+    image: "/meerakurti.jpg",
+  },
+  {
+    id: 2,
+    name: "Silken Whisper Scarf",
+    boutique: "Silk & Spice",
+    price: 1500,
+    image: "/scraff.webp",
+  },
+  {
+    id: 3,
+    name: "Noor Boutique Dress",
+    boutique: "Valley Weaves",
+    price: 1800,
+    image: "/boutique.webp",
+  },
+  {
+    id: 4,
+    name: "Ridge Wrap - Pashmina",
+    boutique: "Pahadi Looms",
+    price: 2200,
+    image: "/pashmina.webp",
+  },
+  {
+    id: 5,
+    name: "Amber Glow Saree",
+    boutique: "Royal Looms",
+    price: 2500,
+    image: "/scraff.webp",
+  },
+  {
+    id: 6,
+    name: "Celestial Chikankari Kurta",
+    boutique: "Awadh Threads",
+    price: 1350,
+    image: "/meerakurti.jpg",
+  },
+  {
+    id: 7,
+    name: "Mystic Valley Shawl",
+    boutique: "Himalayan Heritage",
+    price: 2000,
+    image: "/boutique.webp",
+  },
+  {
+    id: 8,
+    name: "Velour Anarkali Gown",
+    boutique: "Silhouette Studio",
+    price: 3200,
+    image: "/pashmina.webp",
+  },
+  {
+    id: 9,
+    name: "Royal Banarasi Saree",
+    boutique: "Banaras Elegance",
+    price: 5000,
+    image: "/meerakurti.jpg",
+  },
+  {
+    id: 10,
+    name: "Ethereal Lehenga",
+    boutique: "Dream Weaves",
+    price: 4200,
+    image: "/scraff.webp",
+  },
+  {
+    id: 11,
+    name: "Golden Hour Dupatta",
+    boutique: "Zari & Zardosi",
+    price: 1400,
+    image: "/pashmina.webp",
+  },
+  {
+    id: 12,
+    name: "Sapphire Silk Saree",
+    boutique: "Silken Touch",
+    price: 2700,
+    image: "/boutique.webp",
+  },
+  {
+    id: 13,
+    name: "Ivory Pearl Kurta Set",
+    boutique: "Regal Stitches",
+    price: 3100,
+    image: "/meerakurti.jpg",
+  },
+  {
+    id: 14,
+    name: "Crimson Bridal Lehenga",
+    boutique: "Heritage Couture",
+    price: 6800,
+    image: "/scraff.webp",
+  },
+  {
+    id: 15,
+    name: "Emerald Velvet Gown",
+    boutique: "Velour Royale",
+    price: 3600,
+    image: "/pashmina.webp",
+  },
+  {
+    id: 16,
+    name: "Sunset Kanjivaram Saree",
+    boutique: "South Looms",
+    price: 5400,
+    image: "/boutique.webp",
+  },
+  {
+    id: 17,
+    name: "Midnight Indigo Sherwani",
+    boutique: "Nawab’s Choice",
+    price: 4200,
+    image: "/scraff.webp",
+  },
+  {
+    id: 18,
+    name: "Lotus Blossom Dress",
+    boutique: "Bloom Weaves",
+    price: 1900,
+    image: "/meerakurti.jpg",
+  },
+  {
+    id: 19,
+    name: "Heritage Brocade Jacket",
+    boutique: "Majestic Threads",
+    price: 2500,
+    image: "/pashmina.webp",
+  },
+  {
+    id: 20,
+    name: "Regal Peacock Saree",
+    boutique: "Eternal Drapes",
+    price: 6000,
+    image: "/boutique.webp",
+  },
+];
+
+
 
   function handlePay(product) {
     const options = {
