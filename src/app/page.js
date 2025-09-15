@@ -44,7 +44,7 @@ const products = [
     name: "Celestial Chikankari Kurta",
     boutique: "Awadh Threads",
     price: 1350,
-    image: "/banarasi.jpg",
+    image: "/banarasi.webp",
   },
   {
     id: 7,
@@ -65,7 +65,7 @@ const products = [
     name: "Royal Banarasi Saree",
     boutique: "Banaras Elegance",
     price: 5000,
-    image: "/boutique.jpg",
+    image: "/boutique.webp",
   },
   {
     id: 10,
@@ -93,7 +93,7 @@ const products = [
     name: "Ivory Pearl Kurta Set",
     boutique: "Regal Stitches",
     price: 3100,
-    image: "/kurti.jpg",
+    image: "/kurti.webp",
   },
   {
     id: 14,
@@ -121,14 +121,14 @@ const products = [
     name: "Midnight Indigo Sherwani",
     boutique: "Nawab’s Choice",
     price: 4200,
-    image: "/sherwani.webp",
+    image: "/shewani.webp",
   },
   {
     id: 18,
     name: "Lotus Blossom Dress",
     boutique: "Bloom Weaves",
     price: 1900,
-    image: "/silk.jpg",
+    image: "/silk.webp",
   },
   {
     id: 19,
